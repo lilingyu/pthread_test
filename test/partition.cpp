@@ -11,7 +11,7 @@ void reOrderArray(vector<int> &array)
 {
     int tmp = array[0];
     int i=0;
-    int j=array.size()-1;
+    int j=(int)(array.size())-1;
     while (i<j) {
         while (array[j]%2 == 0) {
             j--;
